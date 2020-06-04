@@ -1,36 +1,26 @@
-# :package_description
+# Manage subscriptions of users based on WP user info, but staying out of the WP ecosystem.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/:package_name.svg?style=flat-square)](https://packagist.org/packages/spatie/:package_name)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/spatie/:package_name/run-tests?label=tests)](https://github.com/spatie/:package_name/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/:package_name.svg?style=flat-square)](https://packagist.org/packages/spatie/:package_name)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/bitsalt/member-subscriptions.svg?style=flat-square)](https://packagist.org/packages/bitsalt/member-subscriptions)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/bitsalt/member-subscriptions/run-tests?label=tests)](https://github.com/bitsalt/member-subscriptions/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/bitsalt/member-subscriptions.svg?style=flat-square)](https://packagist.org/packages/bitsalt/member-subscriptions)
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_email``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+This package provides a way to manage subscription-based users based on the users from a WordPress site.
 
-## Support us
-
-Learn how to create a package like this one, by watching our premium video course:
-
-[![Laravel Package training](https://spatie.be/github/package-training.jpg)](https://laravelpackage.training)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
-You can install the package via composer:
+You <s>can</s> will be able to install the package via composer as shown below...when it's ready
 
 ```bash
-composer require spatie/:package_name
+composer require bitsalt/member-subscriptions
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new Spatie\Skeleton();
-echo $skeleton->echoPhrase('Hello, Spatie!');
+$membership = new Bitsalt\Membership();
+ - more to come
 ```
 
 ## Testing
@@ -53,7 +43,7 @@ If you discover any security related issues, please email freek@spatie.be instea
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Jeff Moser](https://github.com/bitsalt)
 - [All Contributors](../../contributors)
 
 ## License

@@ -1,17 +1,17 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "bitsalt/member-subscriptions",
+    "description": "Manage subscriptions of users based on WP user info, but staying out of the WP ecosystem.",
     "keywords": [
-        "spatie",
-        ":package_name"
+        "bitsalt",
+        "member-subscriptions"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/bitsalt/member-subscriptions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Jeff Moser",
+            "email": "jeff@bitsalt.com",
+            "homepage": "https://bitsalt.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Bitsalt\\Membership\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Bitsalt\\Membership\\Tests\\": "tests"
         }
     },
     "scripts": {
