@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Bitsalt\Membership\Tests;
 
 use PHPUnit\Framework\TestCase;
 
