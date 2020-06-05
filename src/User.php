@@ -63,13 +63,13 @@ class User
 
     public function updateUser($data)
     {
-        if (!is_array($data)) {
+        if (! is_array($data)) {
             return false;
         }
 
         foreach ($data as $key => $val) {
             if ($key == 'email') {
-                if (!$this->updateEmail($val)) {
+                if (! $this->updateEmail($val)) {
                     return false;
                 }
             } else {
@@ -86,8 +86,10 @@ class User
     {
         if ($validEmail = Validator::validateEmail($email)) {
             $this->email = $validEmail;
+
             return $this->email;
         }
+
         return false;
     }
 
@@ -97,7 +99,7 @@ class User
             'username' => $this->username,
             'email' => $this->email,
             'first_name' => $this->firstName,
-            'last_name' => $this->lastName
+            'last_name' => $this->lastName,
         ];
     }
 }
