@@ -91,5 +91,4 @@ class MembershipTest extends TestCase
         $this->assertFalse($added, 'Supplied improperly formatted email.');
         //$this->expectException('InvalidArgumentException: User has not been added. Email is invalid.');
     }
-
 }
